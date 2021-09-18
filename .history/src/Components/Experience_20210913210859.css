@@ -1,0 +1,11 @@
+.experience {
+  background-image: url("https://wallpapercave.com/wp/wp2665744.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80vw;
+  height: 100vh;
+}
+.experience > h1 {
+  color: #fff;
+  text-align: center;
+}

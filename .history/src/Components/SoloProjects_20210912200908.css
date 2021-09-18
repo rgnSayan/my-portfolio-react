@@ -1,0 +1,27 @@
+.soloProjects__card > img {
+  height: 10%;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.soloProjects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 15px;
+  background-color: orange;
+  padding: 15px;
+}
+.soloProjects__card > h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Redressed;
+  padding: 10px;
+}
+.soloProjects__card > ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}

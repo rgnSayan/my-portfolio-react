@@ -1,0 +1,10 @@
+.soloProjects__card > img {
+  height: 10%;
+  width: 10%;
+}
+.soloProjects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 15px;
+}

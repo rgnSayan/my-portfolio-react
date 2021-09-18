@@ -1,0 +1,17 @@
+.certificates {
+  background-image: url("https://wallpapercave.com/wp/wp2665744.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80vw;
+  height: 100vh;
+}
+.certificates__header > h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Redressed;
+  text-align: center;
+}
+.certificates__header {
+  margin-top: -24%;
+}

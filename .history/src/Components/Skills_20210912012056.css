@@ -1,0 +1,12 @@
+.skills {
+  background-image: url("https://wallpapercave.com/wp/wp2665744.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80vw;
+  height: 100vh;
+}
+.skills__header > h1 {
+  color: #fff;
+  font-family: Redressed;
+  text-align: center;
+}

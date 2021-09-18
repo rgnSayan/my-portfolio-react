@@ -1,0 +1,9 @@
+.home {
+  display: flex;
+  flex: 0.8;
+  flex-direction: column;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  width: 80vw;
+  height: 100%;
+  padding-bottom: 30px;
+}

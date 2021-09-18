@@ -1,0 +1,8 @@
+.card__content > label {
+  font-family: Redressed;
+  font-size: 20px;
+  padding-right: 10px;
+}
+.card__content {
+  text-align: center;
+}

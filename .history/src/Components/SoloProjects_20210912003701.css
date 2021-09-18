@@ -1,0 +1,75 @@
+.grid-container1 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 1px;
+  background-color: #e50914;
+  padding: 2px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.grid-container2 {
+  background-color: #4267b2;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 1px;
+  padding: 2px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.grid-container3 {
+  background-color: #25d366;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 1px;
+  padding: 2px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.grid-container1 > div {
+  background-color: white;
+  text-align: center;
+  padding: 5px 4px;
+  font-size: 18px;
+  font-family: Redressed;
+}
+.grid-container2 > div {
+  background-color: white;
+  text-align: center;
+  padding: 5px 4px;
+  font-size: 18px;
+  font-family: Redressed;
+}
+.grid-container3 > div {
+  background-color: white;
+  text-align: center;
+  padding: 5px 4px;
+  font-size: 18px;
+  font-family: Redressed;
+}
+.grid-container4 > div {
+  background-color: white;
+  text-align: center;
+  padding: 5px 4px;
+  font-size: 18px;
+  font-family: Redressed;
+}
+
+.card__button a {
+  text-decoration: none;
+  padding-right: 10px;
+}
+.card__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.soloProject__card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.soloProject__card1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}

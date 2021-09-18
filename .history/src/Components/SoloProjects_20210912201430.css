@@ -1,0 +1,47 @@
+.soloProjects__card > img {
+  height: 10%;
+  width: 10%;
+}
+.soloProjects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 15px;
+  background-color: orange;
+  padding: 15px;
+}
+.soloProjects__card > h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Redressed;
+  padding: 10px;
+  text-align: center;
+}
+.soloProjects__card > ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.soloProjects__card > ul > li {
+  padding: 7px;
+  font-size: 20px;
+  font-family: Redressed;
+}
+.soloProjects__card > h4 {
+  color: #fff;
+  text-align: center;
+}
+.soloProjects__card > h4 > span {
+  color: black;
+  font-family: Redressed;
+}
+.soloProjects__card a > button {
+  text-decoration: none;
+  background-color: orangered;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  padding-right: 10px;
+}

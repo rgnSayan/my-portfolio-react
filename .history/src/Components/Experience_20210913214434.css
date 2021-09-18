@@ -1,0 +1,40 @@
+.experience {
+  background-image: url("https://wallpapercave.com/wp/wp2665744.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80vw;
+  height: 100vh;
+}
+.experience__header > h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Redressed;
+  font-size: 40px;
+  font-weight: bold;
+}
+.experience__header > h4 {
+  color: #fff;
+  text-align: center;
+  font-family: Redressed;
+  font-size: 20px;
+}
+.experience__header > h4 > span {
+  color: orange;
+}
+.experience__container > p {
+  color: #fff;
+  font-size: 40px;
+  background-color: orange;
+  border-radius: 50%;
+  padding: 20px;
+  text-align: center;
+}
+.experience__container {
+  margin-top: 10px;
+}
+.container__header > h2 {
+  text-align: center;
+  color: #fff;
+  font-family: Redressed;
+  font-size: 30px;
+}

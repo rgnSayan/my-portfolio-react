@@ -1,0 +1,12 @@
+.home {
+  display: flex;
+  flex: 0.8;
+  flex-direction: column;
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+  width: 80vw;
+  height: 100%;
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 450px) {
+}

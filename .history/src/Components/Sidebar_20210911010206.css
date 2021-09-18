@@ -1,0 +1,22 @@
+.sidebar {
+  display: flex;
+  flex: 0.2;
+  background-color: #8a8aff;
+  height: 100vh;
+  position: fixed;
+}
+
+.sidebar__option {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.sidebar__option > span {
+  font-size: 25px;
+  font-family: Roboto;
+  padding-top: 60px;
+  text-align: start;
+  font-weight: bold;
+}

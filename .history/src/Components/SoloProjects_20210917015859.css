@@ -1,0 +1,94 @@
+.soloProjects {
+  display: flex;
+  margin-top: 10px;
+}
+
+.soloProjects__card > img {
+  height: 25%;
+  width: 25%;
+}
+.soloProjects__card > img:hover {
+  transform: scale(1.5);
+}
+
+.soloProjects__card > img.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.soloProjects__card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5px 15px;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  padding: 10px;
+  border-radius: 15px;
+  height: 100%;
+}
+
+.soloProjects__card > h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Redressed;
+  padding: 10px;
+  text-align: center;
+}
+.soloProjects__card > ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.soloProjects__card > ul > li {
+  padding: 7px;
+  font-size: 20px;
+  font-family: Redressed;
+  background-color: #ff2e2e;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.soloProjects__card > ul > li:hover {
+  transform: translateY(-15px);
+}
+
+.soloProjects__card > h4 {
+  color: #fff;
+  text-align: center;
+}
+.soloProjects__card > h4 > span {
+  color: black;
+  font-family: Redressed;
+}
+.soloProjects__button a > button {
+  text-decoration: none;
+  background-color: orangered;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-family: Redressed;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+@media screen and (max-width: 450px) {
+  .soloProjects {
+    flex-direction: column;
+  }
+  .soloProjects__card > h1 {
+    font-size: 20px;
+  }
+  .soloProjects__card > ul > li {
+    font-size: 12px;
+    margin: 2px;
+  }
+  .soloProjects__card > ul {
+    margin-left: -37px;
+  }
+}

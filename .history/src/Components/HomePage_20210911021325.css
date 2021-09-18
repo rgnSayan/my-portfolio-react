@@ -1,0 +1,24 @@
+.homePage {
+  background-image: url("https://wallpapercave.com/wp/wp2665744.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80vw;
+}
+
+.homePage__details > h3 {
+  color: #fff;
+  font-family: Redressed;
+  font-size: 35px;
+  margin-top: 150px;
+  margin-left: 22%;
+}
+.homePage__details > h1 {
+  color: #fff;
+  font-family: Redressed;
+  font-size: 80px;
+  padding-top: 15px;
+  text-align: center;
+}
+.homePage__details > h1 > span {
+  color: orange;
+}

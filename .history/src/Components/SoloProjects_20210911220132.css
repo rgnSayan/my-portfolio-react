@@ -1,0 +1,27 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 1px;
+  background-color: #e50914;
+  padding: 1px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 5px 4px;
+  font-size: 15px;
+  font-family: Redressed;
+  font-weight: bold;
+}
+.card__button a {
+  text-decoration: none;
+  padding-right: 10px;
+}
+.card__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}

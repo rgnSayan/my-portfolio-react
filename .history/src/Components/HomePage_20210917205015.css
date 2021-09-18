@@ -1,0 +1,81 @@
+.homePage__details > h3 {
+  color: #fff;
+  font-family: Redressed;
+  font-size: 35px;
+  margin-top: 100px;
+  margin-left: 23%;
+}
+
+.homePage__details > h1 {
+  color: #fff;
+  font-family: Redressed;
+  font-size: 80px;
+  padding-top: 15px;
+  text-align: center;
+}
+.homePage__details > h1 > span {
+  color: orange;
+}
+.my__bio > p {
+  color: white;
+  font-family: Redressed;
+  text-align: start;
+  font-size: 25px;
+}
+.my__bio {
+  margin-left: 24%;
+  margin-right: 15%;
+  margin-bottom: 3%;
+}
+
+.about__me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+  padding: 10px;
+  width: 110px;
+  margin-left: 24%;
+  border-radius: 15px;
+  margin-bottom: 13%;
+}
+
+.about__me > label {
+  color: white;
+  font-size: 20px;
+  font-family: Redressed;
+  padding-right: 10px;
+  text-transform: capitalize;
+  color: black;
+}
+
+.about__me > .MuiSvgIcon-root {
+  color: black;
+}
+
+@media screen and (max-width: 450px) {
+  .homePage__details > h3 {
+    font-size: 30px;
+    margin-left: 5%;
+  }
+  .homePage__details > h1 {
+    font-size: 40px;
+    padding-bottom: 10%;
+  }
+  .my__bio > p {
+    text-align: start;
+    font-size: 20px;
+    margin-left: -35%;
+    margin-right: -25%;
+    line-height: 1.8;
+    padding-bottom: 10%;
+  }
+
+  .homePage__details {
+    margin-top: -10%;
+  }
+  .about__me {
+    margin-bottom: 15%;
+    margin-left: 32%;
+  }
+}

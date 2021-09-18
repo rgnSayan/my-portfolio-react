@@ -1,0 +1,14 @@
+.home {
+  display: flex;
+  flex: 0.8;
+  flex-direction: column;
+  background-image: linear-gradient(
+    -225deg,
+    #a445b2 0%,
+    #d41872 52%,
+    #ff0066 100%
+  );
+  width: 80vw;
+  height: 100%;
+  padding-bottom: 30px;
+}

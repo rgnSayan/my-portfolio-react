@@ -1,0 +1,39 @@
+.skills {
+  padding-bottom: 7%;
+}
+
+.skills__header > h1 {
+  color: #fff;
+  font-family: Redressed;
+  text-align: center;
+}
+.skills__header > h3 {
+  color: #fff;
+  font-family: Redressed;
+  text-align: center;
+}
+.skills__header > h3 > span {
+  color: orange;
+}
+.skills__content > img {
+  height: 105px;
+  width: auto;
+  padding: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.skills__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.skills__content > img:hover {
+  transform: scale(1.5);
+}
+
+@media screen and (max-width: 450px) {
+  .skills__content > img {
+    height: 20%;
+  }
+}

@@ -1,0 +1,7 @@
+.soloProjects__card > img {
+  height: 10%;
+  width: 10%;
+}
+.soloProjects {
+  display: flex;
+}

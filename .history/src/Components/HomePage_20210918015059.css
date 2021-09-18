@@ -1,0 +1,169 @@
+.homePage__details > h3 {
+  color: #fff;
+  font-family: Redressed;
+  font-size: 35px;
+  margin-top: 100px;
+  margin-left: 23%;
+}
+
+.homePage__details > h1 {
+  color: #fff;
+  font-family: Redressed;
+  font-size: 80px;
+  padding-top: 15px;
+  text-align: center;
+}
+.homePage__details > h1 > span {
+  color: orange;
+}
+.my__bio > p {
+  color: white;
+  font-family: Redressed;
+  text-align: start;
+  font-size: 25px;
+}
+.my__bio {
+  margin-left: 24%;
+  margin-right: 15%;
+  margin-bottom: 3%;
+}
+
+.about__me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+  padding: 10px;
+  width: 110px;
+  margin-left: 24%;
+  border-radius: 15px;
+  margin-bottom: 13%;
+}
+
+.about__me > label {
+  color: white;
+  font-size: 20px;
+  font-family: Redressed;
+  padding-right: 10px;
+  text-transform: capitalize;
+  color: black;
+}
+
+.about__me > .MuiSvgIcon-root {
+  color: black;
+}
+
+.icon__menu > .MuiSvgIcon-root {
+  display: none;
+}
+
+@media screen and (max-width: 450px) {
+  .homePage__details > h3 {
+    font-size: 30px;
+    margin-left: 5%;
+  }
+  .homePage__details > h1 {
+    font-size: 40px;
+    padding-bottom: 5%;
+  }
+
+  .my__bio > p {
+    text-align: start;
+    font-size: 20px;
+    margin-left: -32%;
+    margin-right: -20%;
+    line-height: 1.8;
+    padding-bottom: 10%;
+  }
+
+  .homePage__details {
+    margin-top: -20%;
+  }
+  .about__me {
+    margin-bottom: 15%;
+    margin-left: 32%;
+  }
+  .icon__menu > .MuiSvgIcon-root {
+    display: flex;
+    font-size: 2em;
+    color: orange;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid #243949;
+  }
+  .icon__menu {
+    margin: 10px;
+    float: right;
+  }
+
+  .modal__container {
+    background-image: linear-gradient(
+      to top,
+      #1e3c72 0%,
+      #1e3c72 1%,
+      #2a5298 100%
+    );
+    height: 100vh;
+    position: fixed;
+  }
+  .modal__container > .MuiSvgIcon-root {
+    margin: 10px;
+    font-size: 2em;
+    color: orangered;
+    background-color: #243949;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 50%;
+    padding: 5px;
+    position: fixed;
+  }
+  .modal__photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .modal__photo > img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 7px solid yellow;
+  }
+  .modal__photo > h2 {
+    text-align: center;
+    font-family: Redressed;
+    font-size: 40px;
+    margin-top: 10px;
+    color: white;
+  }
+  .modal__option {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    /* margin-left: 5px; */
+    line-height: 2.1;
+  }
+  .modal__option a {
+    text-decoration: none;
+  }
+
+  .modal__option a > span {
+    font-size: 28px;
+    font-family: "Redressed", cursive;
+    text-align: start;
+    font-weight: 500;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    /* text-decoration: none; */
+  }
+
+  .modal__option a > span:hover {
+    cursor: pointer;
+    font-weight: 700;
+    transition: all 0.5s ease-in-out;
+    color: orange;
+  }
+}

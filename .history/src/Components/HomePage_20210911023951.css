@@ -1,0 +1,50 @@
+.homePage {
+  background-image: url("https://wallpapercave.com/wp/wp2665744.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80vw;
+}
+
+.homePage__details > h3 {
+  color: #fff;
+  font-family: Redressed;
+  font-size: 35px;
+  margin-top: 100px;
+  margin-left: 23%;
+}
+
+.homePage__details > h1 {
+  color: #fff;
+  font-family: Redressed;
+  font-size: 80px;
+  padding-top: 15px;
+  text-align: center;
+}
+.homePage__details > h1 > span {
+  color: orange;
+}
+.homePage__details > p {
+  color: white;
+  font-family: Redressed;
+  text-align: start;
+  font-size: 25px;
+  margin: 2% 24%;
+}
+.about__me {
+  display: flex;
+  align-items: center;
+  margin-left: 24%;
+}
+
+.about__me > label {
+  color: white;
+  font-size: 20px;
+  font-family: Redressed;
+  padding-right: 10px;
+  background-color: orange;
+}
+
+.about__me > .MuiSvgIcon-root {
+  color: white;
+  background-color: orange;
+}

@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.2;
+  background-color: #272829;
+  height: 100vh;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.sidebar__photo > img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 7px solid yellow;
+}
+
+.sidebar__photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.sidebar__photo > h2 {
+  font-family: Redressed;
+  font-size: 30px;
+  padding-top: 10px;
+  color: #fff;
+}
+
+.sidebar__option {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 20px;
+  line-height: 2.1;
+}
+.sidebar__option a {
+  text-decoration: none;
+}
+
+.sidebar__option a > span {
+  font-size: 25px;
+  font-family: "Redressed", cursive;
+  text-align: start;
+  font-weight: 500;
+  color: #fff;
+  /* text-decoration: none; */
+}
+
+.sidebar__option a > span:hover {
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.5s ease-in-out;
+  color: orange;
+}
+
+.social__media a > .MuiSvgIcon-root {
+  color: black;
+  background-color: orange;
+  border-radius: 50%;
+  padding: 7px;
+  margin-right: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+  animation: spin 10s linear infinite;
+  animation-play-state: paused;
+}
+.social__media a > .MuiSvgIcon-root:hover {
+  animation-play-state: running;
+}
+@keyframes spin {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+.menu__icon > .MuiSvgIcon-root {
+  display: none;
+}

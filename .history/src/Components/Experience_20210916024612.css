@@ -1,0 +1,113 @@
+.experience {
+  background-image: url("https://wallpapercave.com/wp/wp2665744.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80vw;
+  height: 100vh;
+  /* margin-top: -30%; */
+  padding-top: 10px;
+}
+
+.experience__header > h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Redressed;
+  font-size: 40px;
+  font-weight: bold;
+}
+.experience__header > h4 {
+  color: #fff;
+  text-align: center;
+  font-family: Redressed;
+  font-size: 20px;
+}
+.experience__header > h4 > span {
+  color: orange;
+}
+
+.container__id > p {
+  color: #fff;
+  font-size: 40px;
+  border-radius: 50%;
+  padding: 10px 25px;
+  background-color: #6c757d;
+  font-family: Redressed;
+}
+
+.container__id {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.experience__content {
+  display: flex;
+  margin-top: 2%;
+}
+
+.experience__container {
+  margin: 15px;
+  width: 45%;
+  padding: 15px;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  border-radius: 20px;
+}
+
+.container__header > h2 {
+  text-align: center;
+  font-family: Redressed;
+  font-size: 30px;
+}
+.container__header > h4 {
+  text-align: center;
+  font-family: Redressed;
+  font-size: 15px;
+}
+
+.container__header > h3 {
+  text-align: center;
+  font-family: Redressed;
+  font-size: 25px;
+  font-weight: bold;
+}
+.container__header {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+.container__body {
+  text-align: justify;
+  font-family: Redressed;
+  margin-bottom: 15px;
+}
+
+.container__skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container__skills > p {
+  color: #fff;
+  font-family: Redressed;
+  background-color: orangered;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.container__button a > button {
+  padding: 15px 25px;
+  border-radius: 10px;
+  background-color: red;
+  border: none;
+  color: #fff;
+  font-family: Redressed;
+  cursor: pointer;
+}
+
+.container__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}

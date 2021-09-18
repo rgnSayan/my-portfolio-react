@@ -1,0 +1,10 @@
+.card__content > label {
+  font-family: Redressed;
+  font-size: 20px;
+  display: grid;
+  width: 55%;
+  grid-template-columns: repeat(6, 1fr);
+}
+.card__content {
+  text-align: start;
+}

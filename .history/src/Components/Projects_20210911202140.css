@@ -1,0 +1,15 @@
+.projects {
+  background-image: url("https://wallpapercave.com/wp/wp2665744.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80vw;
+  height: 100vh;
+}
+.projects > h1 {
+  color: #fff;
+  font-size: 30px;
+  font-family: Redressed;
+  text-align: center;
+  margin-top: 10px;
+}
+.projects > h4;

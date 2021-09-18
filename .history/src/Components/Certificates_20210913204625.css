@@ -1,0 +1,42 @@
+.certificates {
+  background-image: url("https://wallpapercave.com/wp/wp2665744.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80vw;
+  height: 100%;
+}
+.certificates__header > h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Redressed;
+  text-align: center;
+}
+.certificates__header {
+  margin-top: 6.5%;
+  line-height: 1.5;
+}
+.certificates__header > h4 {
+  color: #fff;
+  font-family: Redressed;
+  font-size: 20px;
+  text-align: center;
+}
+.certificates__header > h4 > span {
+  color: orange;
+}
+.certificates__container > img {
+  height: 40%;
+  width: 45%;
+  margin: 10px;
+}
+.certificates__container {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.certificates__container > img:hover {
+  transform: translateY(-10px);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

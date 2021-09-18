@@ -1,0 +1,58 @@
+.homePage {
+  background-image: url("https://wallpapercave.com/wp/wp2665744.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.homePage__details > h3 {
+  color: #fff;
+  font-family: Redressed;
+  font-size: 35px;
+  margin-top: 100px;
+  margin-left: 28%;
+}
+
+.homePage__details > h1 {
+  color: #fff;
+  font-family: Redressed;
+  font-size: 80px;
+  padding-top: 15px;
+  text-align: center;
+}
+.homePage__details > h1 > span {
+  color: orange;
+}
+.homePage__details > p {
+  color: white;
+  font-family: Redressed;
+  text-align: start;
+  font-size: 25px;
+  margin-top: 1.5%;
+  margin-left: 28%;
+  margin-right: 20%;
+}
+.about__me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+  padding: 10px;
+  width: 110px;
+  margin-left: 24%;
+  border-radius: 15px;
+}
+
+.about__me > label {
+  color: white;
+  font-size: 20px;
+  font-family: Redressed;
+  padding-right: 10px;
+  text-transform: capitalize;
+  color: black;
+}
+
+.about__me > .MuiSvgIcon-root {
+  color: black;
+}
